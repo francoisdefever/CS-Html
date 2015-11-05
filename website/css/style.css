@@ -1,60 +1,65 @@
 body {
-  background-color: white;
-  color: lightgrey  ;
+    background-color: white;
+    color: lightgrey;
 }
-
 h1 {
-  font-family: "Shadows Into Light", cursive;
-  font-size: 54px;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 54px;
 }
-
 h2 {
-  font-family: "Shadows Into Light", cursive;
-  font-size: 30px;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
 }
-
-img {
-  width: 50%;
-  height: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+nav ul ol {
+    display: inline-block;
+    margin: 5%;
+    padding: 5%;
 }
-
-
+#orga {
+    color: black;
+    position: relative;
+}
+#structure {
+    color: black;
+    margin: 25%;
+    padding: 25%;
+}
+#comment {
+    color: black;
+    margin: 25%;
+    padding: 25%;
+}
 #header {
-  font-size: 54px;
-  text-align: center;
+    font-size: 54px;
+    text-align: center;
 }
-
 #orga-work {
-  background-color: lightblue;
-  font-family: "Nova Mono", sans-serif;
-  color: gray;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin: -20px;
+    background-color: lightblue;
+    font-family: "Nova Mono", sans-serif;
+    color: gray;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
 }
-
 #orga-structure {
-  background-color:  lightgreen;
-  font-family: "Nova Mono", sans-serif;
-  color: gray;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin: -20px;
+    background-color: lightgreen;
+    font-family: "Nova Mono", sans-serif;
+    color: gray;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
 }
-
 #comments {
-  background-color:  indianred;
-  font-family: "Nova Mono", sans-serif;
-  color: white;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin: -20px;
+    background-color: indianred;
+    font-family: "Nova Mono", sans-serif;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
 }
