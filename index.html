@@ -12,19 +12,26 @@
 </head>
 
 <body>
-        <div class="topbar">
-            <div class="fill">
-                <div class="container">
-                    <h3><a href="/">HTML Learning</a></h3>
-                    <ul>
-                        <a id="orga" href="#orga-work">Organisation</a>
-                        <a id="structure" href="#orga-structure">Structuration</a>
-                        <a id="comment" href="#comments">Commentaires</a>
-                    </ul>
-                </div>
+    <header class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Accueil</a> </li>
+                    <li><a href="#">Organisation</a></li>
+                    <li><a href="#">Structuration</a></li>
+                    <li><a href="#">Commentaires</a></li>
+                </ul>
+                <form class="navbar-form navbar-right inline-form">
+                    <div class="form-group">
+                        <input type="search" class="input-sm form-control" placeholder="Recherche">
+                        <button type="submit" class="btn btn-primary btn-sm">
+                            <span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+                    </div>
+                </form>
             </div>
-        </div>
-    <section>
+        </nav>
+    </header>
+    <section class="container">
         <section id="orga-work">
             <h2>Organisation du travail :</h2>
             <h3>Dossier Organisation de travail</h3>
