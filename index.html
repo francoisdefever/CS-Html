@@ -4,77 +4,78 @@
 <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="website/pictures/l5ryg.png" />
+    <link rel="stylesheet" href="website/css/bootstrap.css">
     <link rel="stylesheet" href="website/css/style.css">
-    <link rel="stylesheet" href="website/css/styletab.css" media="screen and (max-width:768px)">
-    <link rel="stylesheet" href="website/css/stylesmart.css" media="screen and (max-width:320px)">
     <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet" type="text/css">
     <title>Html learning</title>
 </head>
 
 <body>
-    <section id="header">
-        <h1>HTML Learning</h1>
-    </section>
-
-    <nav>
-        <ul>
-            <ol><a id="orga" href="#orga-work">Organisation</a></ol>
-            <ol><a id="structure" href="#orga-structure">Structuration</a></ol>
-            <ol><a id="comment" href="#comments">Commentaires</a></ol>
-        </ul>
-    </nav>
-
-    <section id="orga-work">
-        <h2>Organisation du travail :</h2>
-        <h3>Dossier Organisation de travail</h3>
-        <ul>
-            <li>Elements de travail: contient les jpg,png,psd</li>
-            <li>Sites :</li>
+        <div class="topbar">
+            <div class="fill">
+                <div class="container">
+                    <h3><a href="/">HTML Learning</a></h3>
+                    <ul>
+                        <a id="orga" href="#orga-work">Organisation</a>
+                        <a id="structure" href="#orga-structure">Structuration</a>
+                        <a id="comment" href="#comments">Commentaires</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <section>
+        <section id="orga-work">
+            <h2>Organisation du travail :</h2>
+            <h3>Dossier Organisation de travail</h3>
             <ul>
-                <li>index.html</li>
-                <li>css: feuilles de styles</li>
-                <li>images: images finales du sites</li>
-                <li>js: javascript</li>
-                <li>média: vidéo audio</li>
-                <li>pages: pages du site</li>
+                <li>Elements de travail: contient les jpg,png,psd</li>
+                <li>Sites :</li>
+                <ul>
+                    <li>index.html</li>
+                    <li>css: feuilles de styles</li>
+                    <li>images: images finales du sites</li>
+                    <li>js: javascript</li>
+                    <li>média: vidéo audio</li>
+                    <li>pages: pages du site</li>
+                </ul>
             </ul>
-        </ul>
-        <a href="#header">Move Up !</a>
-    </section>
+            <a href="#header">Move Up !</a>
+        </section>
 
-    <section id="orga-structure">
-        <h2>Structure de page de base :</h2>
-        <blockquote>
-            <p>
-                <pre>&lt!DOCTYPE html&gt = grammaire générale des balises html
-                    <br/> &lthtml&gt = début de la page
-                    <br/> &lthead&gt = Entête qui ne s'affuiche pas sur le site
-                    <br/> &ltmeta charset="utf-8" /&gt = pour afficher les accents
-                    <br/> &lttitle&gtPage de base&lt/title&gt= titre de la page, il s'affiche dans l'onglet du navigateur
-                    <br/> &lt/head&gt
-                    <br/> &ltbody&gt = Corps qui s'affiche sur la page
-                    <br/> &lt/body&gt
-                    <br/> &lt/html&gt = Fin de page
-                    <br/>
-                </pre>
+        <section id="orga-structure">
+            <h2>Structure de page de base :</h2>
+            <blockquote>
+                <p>
+                    <pre>&lt!DOCTYPE html&gt = grammaire générale des balises html
+                        <br/> &lthtml&gt = début de la page
+                        <br/> &lthead&gt = Entête qui ne s'affuiche pas sur le site
+                        <br/> &ltmeta charset="utf-8" /&gt = pour afficher les accents
+                        <br/> &lttitle&gtPage de base&lt/title&gt= titre de la page, il s'affiche dans l'onglet du navigateur
+                        <br/> &lt/head&gt
+                        <br/> &ltbody&gt = Corps qui s'affiche sur la page
+                        <br/> &lt/body&gt
+                        <br/> &lt/html&gt = Fin de page
+                        <br/>
+                    </pre>
+                </p>
+            </blockquote>
+            <a href="#header">Move Up !</a>
+        </section>
+
+        <section id="comments">
+            <h2>Comentaires et entités :</h2>
+            <p>&lt!-- Commentaires qui n'apparait pas dans le navigateur --&gt
+                <br/>
+                <br/> a &lt b = a &lt; b = entité qui dit que a est inférieur à b
+                <br/> a &gt b = a &gt; b = entité qui dit que a est supérieur à b
+                <br/> a & b = a &amp; b = entité de a et b
+                <br/> a&nbsp;b = espace non sécable
+                <br/>
             </p>
-        </blockquote>
-        <a href="#header">Move Up !</a>
-    </section>
+            <a href="#header">Move Up !</a>
 
-    <section id="comments">
-        <h2>Comentaires et entités :</h2>
-        <p>&lt!-- Commentaires qui n'apparait pas dans le navigateur --&gt
-            <br/>
-            <br/> a &lt b = a &lt; b = entité qui dit que a est inférieur à b
-            <br/> a &gt b = a &gt; b = entité qui dit que a est supérieur à b
-            <br/> a & b = a &amp; b = entité de a et b
-            <br/> a&nbsp;b = espace non sécable
-            <br/>
-        </p>
-        <a href="#header">Move Up !</a>
-
+        </section>
     </section>
     <footer>
 
