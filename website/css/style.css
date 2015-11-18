@@ -1,0 +1,25 @@
+.picto {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 200%;
+    height: 200%;
+}
+#ultop {
+    
+}
+#balise {
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+#midtitle {
+    padding-top: 5%;
+    padding-bottom: 5%;
+text-align: center;
+background-color: lightgray;
+}
+li {
+    font-size: 12px;
+}
