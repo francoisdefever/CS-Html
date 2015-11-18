@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="website/pictures/l5ryg.png" />
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet" type="text/css">
+    <title>Html learning</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Accueil</a> </li>
+                    <li><a href="#">Organisation</a></li>
+                    <li><a href="#">Structuration</a></li>
+                    <li><a href="#">Commentaires</a></li>
+                </ul>
+                <form class="navbar-form navbar-right inline-form">
+                    <div class="form-group">
+                        <input type="search" class="input-sm form-control" placeholder="Recherche">
+                        <button type="submit" class="btn btn-primary btn-sm">
+                            <span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <section class="row"> </section>
+        <section class="col-md-6 col-xs-12">
+            <h3>Dossier Organisation de travail</h3>
+            <ul>
+                <li>Elements de travail: contient les jpg,png,psd</li>
+                <li>Sites :</li>
+                <ul>
+                    <li>index.html</li>
+                    <li>css: feuilles de styles</li>
+                    <li>images: images finales du sites</li>
+                    <li>js: javascript</li>
+                    <li>média: vidéo audio</li>
+                    <li>pages: pages du site</li>
+                </ul>
+            </ul>
+            <a href="#header">Move Up !</a>
+        </section>
+
+        <sectionclass="col-md-6">
+            <h2>Structure de page de base :</h2>
+            <blockquote>
+                <p>
+                    <pre>&lt!DOCTYPE html&gt = grammaire générale des balises html
+                        <br/> &lthtml&gt = début de la page
+                        <br/> &lthead&gt = Entête qui ne s'affuiche pas sur le site
+                        <br/> &ltmeta charset="utf-8" /&gt = pour afficher les accents
+                        <br/> &lttitle&gtPage de base&lt/title&gt= titre de la page, il s'affiche dans l'onglet du navigateur
+                        <br/> &lt/head&gt
+                        <br/> &ltbody&gt = Corps qui s'affiche sur la page
+                        <br/> &lt/body&gt
+                        <br/> &lt/html&gt = Fin de page
+                        <br/>
+                    </pre>
+                </p>
+            </blockquote>
+            <a href="#header">Move Up !</a>
+        </section>
+
+        <section>
+            <h2>Comentaires et entités :</h2>
+            <p>&lt!-- Commentaires qui n'apparait pas dans le navigateur --&gt
+                <br/>
+                <br/> a &lt b = a &lt; b = entité qui dit que a est inférieur à b
+                <br/> a &gt b = a &gt; b = entité qui dit que a est supérieur à b
+                <br/> a & b = a &amp; b = entité de a et b
+                <br/> a&nbsp;b = espace non sécable
+                <br/>
+            </p>
+            <a href="#header">Move Up !</a>
+
+        </section>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
